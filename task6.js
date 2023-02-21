@@ -2,7 +2,7 @@ const http=require('http');
 
 const server=http.createServer((req,res)=>{
     // console.log(req);
-    console.log("my name is adnan khan");
+    console.log(req.method);
 
 
 })
